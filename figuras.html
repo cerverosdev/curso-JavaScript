@@ -7,7 +7,36 @@
     <title>Figuras Geometricas</title>
 </head>
 <body>
-    <h1>Figuras Geometricas</h1>
+    <header class="head"> 
+        <picture class="head-logo">
+
+        </picture>
+        <h1>FIGURE CALCULATOR</h1>
+    </header>
+    <main class="container">
+        
+        <section class="container-cuadrado">
+            <h2>¡Calculemos el área del cuadrado!</h2>
+            <form action="">
+                <label for="inputCuadrado">Escribe cuanto mide el lado del cuadrado</label>            
+                <input id="inputCuadrado" type="number">
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perimetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcular área
+                </button>
+            </form>
+        </section>
+
+        <section class="container-triangulo">
+            <h2>Calcula el área y el perimetro de un triángulo</h2>
+        </section>
+        <section class="container-circulo">
+            <h2>Calcula el area y el perimetro de un círculo</h2>
+        </section>
+    </main>
+    
     <script src="./figuras.js"></script>
 </body>
 </html>
